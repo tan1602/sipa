@@ -178,6 +178,26 @@ a.active a:hover{
     justify-content: center;
 }
 
+#goUpButton {
+    display: none;
+    position: fixed;
+    bottom: 2rem;
+    right: 3rem;
+    z-index: 9.9;
+    font-size: 1.8rem;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 1.5rem;
+    border-radius: .4rem;
+  }
+  
+  #goUpButton:hover {
+    background-color: #555;
+  }
+
 @media(max-width:998px){
     html{
         font-size: 55%;
