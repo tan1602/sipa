@@ -15,6 +15,7 @@ import atexit
 
 app = Flask(__name__)
 csrf = CSRFProtect(app)
+print("Successfully executeddddddddddd!!!")
 app.config.update(dict(
     SECRET_KEY="unhandledQueries",
     WTF_CSRF_SECRET_KEY="unhandledQueriesCSRF"
